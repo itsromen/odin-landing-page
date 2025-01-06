@@ -2,10 +2,83 @@ html {
     box-sizing: border-box;
   }
     
-  *,
-  *::before,
-  *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-  }
+}
+
+.navbar {
+    margin-bottom: 80px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.navbar-container ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-container a {
+    text-decoration: none;
+}
+
+.hero-primary {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    line-height: 75%;
+    margin-bottom: 12px;
+}
+
+.hero-secondary,
+a {
+    color: #a1a5ad;
+    font-size: 18px;
+}
+
+.navbar-container li {
+    margin-left: 24px;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 0px 48px 80px 48px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0 48px;
+    align-items: stretch;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    font-weight: 700;
+    padding: 6px 24px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.hero-container img {
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+}
