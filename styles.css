@@ -92,3 +92,94 @@ header {
     max-height: 100%;
     object-fit: cover;
 }
+
+.second {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.information {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.imageinfo {
+    display: flex;
+    gap: 16px;
+}
+
+.imageinfo img {
+    border-radius: 16px;
+    border: 8px solid #3882f6;
+}
+
+.third {
+    background-color: #e5e7eb;
+    padding: 128px 64px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quoted {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #1f2937;
+    margin-right: 16px;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    padding: 36px 64px;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    gap: 40px;
+    align-items: center;
+}
+
+.action-header {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.action-info {
+    font-weight: lighter;
+    color: rgb(228, 222, 222);
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 32px;
+}
+
+.copyright {
+    color: white;
+    font-size: 1.15rem;
+}
+
+.lastbutton {
+    margin: 0;
+    border: 1px solid white;
+}
